@@ -1,0 +1,101 @@
+.home-container{
+    width:100%;
+    height: max-content;
+    padding: 20px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home-container{
+    margin-top: 100px;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:2px solid purple;
+    margin: 30px;
+    line-height: 33px;
+    width: fit-content;
+}
+
+.card h2,p{
+    color: #000;
+}
+
+.card p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+
+  .courses-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* grid-template-columns: repeat(2, 1fr);  */
+  }
+  
+  .card {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards per row with space for the gap */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 33.33%;
+  }
+  
+
+  .card h2 {
+    margin: 5px 0;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0px 15px;
+    max-width: 200px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .courses-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .courses-container {
+      grid-template-columns: 1fr; /* 1 column on very small screens */
+    }
+  }
+  
