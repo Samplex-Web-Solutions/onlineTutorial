@@ -29,7 +29,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://samplex-web-solutions.github.io/onlineTutorial/",
+  "homepage": "https://Samplex-Web-Solutions.github.io/onlineTutorial/",
   "eslintConfig": {
     "extends": [
       "react-app",
