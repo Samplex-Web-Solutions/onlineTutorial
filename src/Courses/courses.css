@@ -36,7 +36,6 @@ aside {
     height: max-content;
     display: flex;
     flex-direction: column;
-    
 }
 
 .editor{
@@ -56,6 +55,7 @@ aside {
     display: flex;
     flex-direction: row;
     overflow: hidden;
+    width: 100%;
 
 }
 
@@ -84,4 +84,5 @@ aside {
     justify-content: space-between;
     padding: 0px 30px;
     padding-bottom: 30px;
+    width: 100%;
 }

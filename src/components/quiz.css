@@ -1,11 +1,11 @@
 .quiz-controller{
-    height: 100vh;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .wrapper{
@@ -21,6 +21,7 @@
     margin: 0 auto;
     text-align: center;
     font-family: Arial, sans-serif;
+    height: 200px;
 }
 
 .test-selection h1 {
@@ -80,7 +81,7 @@ li {
     margin: 0px;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 label {
     cursor: pointer;
@@ -91,7 +92,7 @@ label {
     width: 100%;
     justify-content: center;
     align-items: center;
-    line-height:25px ;
+    line-height:20px ;
     width: 580px;
 }
 
