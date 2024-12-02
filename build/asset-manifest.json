@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/onlineTutorial/static/css/main.ac3e9cf3.css",
+    "main.js": "/onlineTutorial/static/js/main.4ac8df29.js",
+    "static/media/c++.png": "/onlineTutorial/static/media/c++.6da115d91ba9cd9485f4.png",
+    "static/media/css.png": "/onlineTutorial/static/media/css.17d37edf79ef30288a30.png",
+    "static/media/js.png": "/onlineTutorial/static/media/js.386c71fd7acb752e5322.png",
+    "static/media/c.png": "/onlineTutorial/static/media/c.d35456ec642a53a8786d.png",
+    "static/media/html.png": "/onlineTutorial/static/media/html.5515c6675b2b5a39119a.png",
+    "static/media/py.png": "/onlineTutorial/static/media/py.a2456bd422d0db50e05a.png",
+    "index.html": "/onlineTutorial/index.html",
+    "main.ac3e9cf3.css.map": "/onlineTutorial/static/css/main.ac3e9cf3.css.map",
+    "main.4ac8df29.js.map": "/onlineTutorial/static/js/main.4ac8df29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac3e9cf3.css",
+    "static/js/main.4ac8df29.js"
+  ]
+}
